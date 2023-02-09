@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height:100vh;
+}
+
+.container{
+    min-height: 600px;
+    max-width:800px;
+    display:flex;
+    margin-inline: auto;
+    background-color: antiquewhite;
+    justify-content: center;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    gap:1rem;
+    align-content: space-evenly;
+}
+
+.box{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width:100px;
+    min-height:100px;
+    background-color: aquamarine;
+    font-size: 1rem;
+    border: 1px solid black;
+}
